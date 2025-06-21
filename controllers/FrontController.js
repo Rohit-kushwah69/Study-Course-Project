@@ -88,7 +88,7 @@ class FrontController {
   static register = async (req, res) => {
     let pageTitle = "Register";
     try {
-      res.render("Register", {
+      res.render("register", {
         pageTitle: pageTitle,
         msg: req.flash("success"),
         msg1: req.flash("error"),
