@@ -315,7 +315,7 @@ class FrontController {
               password: newHashPassword,
             });
             req.flash("success", "Password Updated successfully ");
-            res.redirect("/login");
+            res.redirect("/profile");
           }
         }
       } else {
